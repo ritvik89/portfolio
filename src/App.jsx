@@ -25,14 +25,16 @@ function App() {
 
         {/* Resume Button */}
         <div style={{ marginTop: "20px" }}>
-          <a
-            href="/Ritvik Chandrikapure resume.pdf"
-            target="_blank"
-            rel="noreferrer"
-            className="resume-btn"
-          >
-            View My Resume
-          </a>
+        <a 
+  href={`${import.meta.env.BASE_URL}RitvikResume.pdf`} 
+  target="_blank" 
+  rel="noreferrer"
+  className="resume-btn"
+>
+  View My Resume
+</a>
+
+
         </div>
       </header>
 
