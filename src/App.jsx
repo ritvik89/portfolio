@@ -25,14 +25,14 @@ function App() {
 
         {/* Resume Button */}
         <div style={{ marginTop: "20px" }}>
-          <a 
-  href={`${import.meta.env.BASE_URL}RitvikResume.pdf`} 
-  target="_blank" 
-  rel="noreferrer"
-  className="resume-btn"
->
-  View My Resume
-</a>
+          <a
+            href={`${import.meta.env.BASE_URL}RitvikResume.pdf`}
+            target="_blank"
+            rel="noreferrer"
+            className="resume-btn"
+          >
+            View My Resume
+          </a>
 
 
         </div>
@@ -42,10 +42,10 @@ function App() {
       <section className="about">
         <h2>About Me</h2>
         <p>
-          I'm Ritvik Chandrikapure, an MCA (Master of Computer Applications) graduate specializing in Information Technology. 
-          I have a strong foundation in web development, with skills in HTML, CSS, JavaScript, React.js, Node.js, 
-          and MongoDB. I am passionate about building responsive and user-friendly web applications and have 
-          completed several academic and personal projects during my MCA. My goal is to work as a Web Developer 
+          I'm Ritvik Chandrikapure, an MCA (Master of Computer Applications) graduate specializing in Information Technology.
+          I have a strong foundation in web development, with skills in HTML, CSS, JavaScript, React.js, Node.js,
+          and MongoDB. I am passionate about building responsive and user-friendly web applications and have
+          completed several academic and personal projects during my MCA. My goal is to work as a Web Developer
           in a reputed IT company where I can apply my skills, learn new technologies, and contribute to innovative solutions.
         </p>
       </section>
@@ -75,6 +75,20 @@ function App() {
           <p>RTMNU University (2021)</p>
         </div>
       </section>
+
+      {/* Experience  */}
+  <section className="experience">
+  <h2>Experience</h2>
+  <div className="edu-card">
+    <h3>Software Development Intern | MSIT Services-CMS, Nagpur</h3>
+    <p><i>Jan 2024 – June 2024</i></p>
+    <ul>
+      <li>Developed a live face detection system using OpenCV for real-time facial recognition.</li>
+      <li>Optimized computer vision algorithms to enhance accuracy and processing speed.</li>
+    </ul>
+  </div>
+</section>
+
 
       {/* Projects Section */}
       <section className="projects">
