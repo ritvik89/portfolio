@@ -3,13 +3,13 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage":"https://github.com/ritvik89/portfolio.git",
+  "homepage": "https://github.com/ritvik89/portfolio.git",
   "scripts": {
-      "start": "react-scripts start",
-  "build": "react-scripts build",
+     "dev": "vite",
+  "build": "vite build",
   "predeploy": "npm run build",
-  "deploy": "gh-pages -d build",
-    "dev": "vite",
+  "deploy": "gh-pages -d dist",
+    "start": "react-scripts start", 
     "lint": "eslint .",
     "preview": "vite preview"
   },
