@@ -119,7 +119,7 @@ function App() {
       {/* Contact Section */}
       <section className="contact">
         <h2>Contact Me</h2>
-        <p>📞 Phone: <a href="#">+91 8975585801</a></p>
+        <p>📞 Phone: <a href="tel:+918975585801">+91 8975585801</a></p>
         <p>📧 Email: <a href="mailto:ritvikchandrikapure@gmail.com">ritvikchandrikapure@gmail.com</a></p>
         <p>🔗 LinkedIn: <a href="https://linkedin.com/in/ritvik-chandrikapure" target="_blank" rel="noreferrer">linkedin.com/in/ritvik</a></p>
       </section>
