@@ -77,17 +77,17 @@ function App() {
       </section>
 
       {/* Experience  */}
-  <section className="experience">
-  <h2>Experience</h2>
-  <div className="edu-card">
-    <h3>Software Development Intern | MSIT Services-CMS, Nagpur</h3>
-    <p><i>Jan 2024 – June 2024</i></p>
-    <ul>
-      <li>Developed a live face detection system using OpenCV for real-time facial recognition.</li>
-      <li>Optimized computer vision algorithms to enhance accuracy and processing speed.</li>
-    </ul>
-  </div>
-</section>
+      <section className="experience">
+        <h2>Experience</h2>
+        <div className="edu-card">
+          <h3>Software Development Intern | MSIT Services-CMS, Nagpur</h3>
+          <p><i>Jan 2024 – June 2024</i></p>
+          <ul>
+            <li>Developed a live face detection system using OpenCV for real-time facial recognition.</li>
+            <li>Optimized computer vision algorithms to enhance accuracy and processing speed.</li>
+          </ul>
+        </div>
+      </section>
 
 
       {/* Projects Section */}
@@ -101,9 +101,16 @@ function App() {
           </a>
         </div>
         <div className="project-card">
-          <h3>Online Fitness Center</h3>
-          <p>MERN Stack web app for workouts & fitness tracking.</p>
-          <a href="https://github.com/ritvik89/online-fitness-center.git" target="_blank" rel="noreferrer">
+          <h3>Trainify – Full-Stack Fitness App</h3>
+          <p>Developed a full-stack fitness app with secure user authentication,
+             personalized workout plans, video tutorials,
+
+            and subscription-based premium plans.
+
+            Built RESTful APIs with Node.js & Express.js, managed MongoDB for efficient data storage.
+
+            Designed responsive UI using React, HTML, and CSS for seamless user experience.</p>
+          <a href="https://github.com/ritvik89/Trainify.git" target="_blank" rel="noreferrer">
             View Project
           </a>
         </div>
